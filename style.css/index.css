@@ -1,0 +1,360 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+/*=======header======*/
+body {
+	background-color: var(--c-background);
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.section {
+	padding: 94px 0;
+}
+
+.header {
+	background-color: var(--c-white);
+	border-bottom: 1px solid #ececec;
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0;
+}
+
+.menu_list_nav {
+	display: flex;
+}
+
+.menu_list_nav li {
+	margin-right: 50px;
+}
+
+.menu_list_nav .current {
+	color: var(--c-light-blue);
+}
+
+.menu_list_nav li:last-child {
+	margin-right: 0;
+}
+
+.list_contacts {
+	display: flex;
+}
+
+.list_contacts li {
+	margin-right: 50px;
+}
+
+.list_contacts li:last-child {
+	margin-right: 0;
+}
+
+.logo_1 {
+	color: var(--c-blue);
+	font-size: 26px;
+	font-weight: 400;
+	font-family: var(--font-raleway);
+	line-height: 1.17;
+}
+
+.logo_2 {
+	color: var(--c-black);
+	font-size: 26px;
+	font-weight: 700;
+	font-family: var(--font-raleway);
+	line-height: 1.38;
+}
+
+.links_nav {
+	color: var(--c-dark);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.17;
+}
+
+.links_nav:hover,
+.links_nav:focus {
+	color: var(--c-light-blue);
+}
+
+.links_contact {
+	color: var(--c-boulder);
+}
+
+.links_contact:hover,
+.links_contact:focus {
+	color: var(--c-light-blue);
+}
+/*======= end header======*/
+/*========components========*/
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+:root {
+	/*Colors*/
+	--c-background: #e5e5e5;
+	--c-white: #ffffff;
+	--c-blue: #2196e3;
+	--c-light-blue: #2196f3;
+	--c-black: #000000;
+	--c-dark: #212121;
+	--c-boulder: #757575;
+	--c-colordesc: #2f303a;
+	--c-colorteam: #f5f4fa;
+	/* Fonts */
+	--font-roboto: "Roboto", sans-serif;
+	--font-raleway: "Raleway", sans-serif;
+}
+/*========end components========*/
+/*==========Button==========*/
+.hero {
+	background-color: var(--c-colordesc);
+}
+
+.hero__content {
+	color: var(--c-white);
+	padding: 106px 0;
+}
+
+.hero__title {
+	font-size: 44px;
+	line-height: 60px;
+	font-weight: 900;
+	max-width: 690px;
+	text-align: center;
+	margin: 0 auto 40px;
+}
+
+.hero__button {
+	color: var(--c-white);
+	display: block;
+	padding: 10px 32px;
+	background-color: var(--c-light-blue);
+	border-radius: 4px;
+	margin: 0 auto;
+	min-width: 200px;
+	font-size: 16px;
+	line-height: 1.87;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.description_btn:hover {
+	background-color: #188ce8;
+}
+/*==========end Button==========*/
+/*==========About us==========*/
+.about {
+	padding-bottom: 0;
+}
+
+.about__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_title {
+	color: var(--c-dark);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	margin-bottom: 10px;
+}
+
+.about_text {
+	color: var(--c-boulder);
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	line-height: 1.71;
+	font-weight: 400;
+	max-width: 270px;
+}
+/*==========end About us==========*/
+/*==========WORK==========*/
+.list_title {
+	display: flex;
+	margin-left: -30px;
+}
+.list_title li {
+	margin-left: 30px;
+	flex-basis: calc((100% - 30px) / 3);
+}
+.working_list {
+	background-color: var(--c-background);
+}
+
+.working_list_title {
+	text-align: center;
+}
+.working_list_title {
+	color: var(--c-dark);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	margin-bottom: 50px;
+}
+/*==========end WORK==========*/
+/*==========Team==========*/
+
+.our_team_title_list {
+	display: flex;
+	margin-left: -30px;
+}
+.our_team_title_list li {
+	background-color: var(--c-white);
+	margin-left: 30px;
+	flex-basis: calc((100% - 30px) / 4);
+}
+
+.our_team {
+	background-color: var(--c-colorteam);
+	text-align: center;
+}
+
+.our_team_title {
+	color: var(--c-dark);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	margin-bottom: 50px;
+}
+
+.name_employee {
+	color: var(--c-dark);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	margin: 30px 0 10px;
+	text-align: center;
+}
+
+.position_employee {
+	color: var(--c-boulder);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
+}
+/*==========end TEAM==========*/
+/*=======FOOTER=======*/
+
+.logo_2_footer {
+	color: var(--c-white);
+	font-size: 26px;
+	font-weight: 700;
+	font-family: var(--font-raleway);
+	line-height: 1.38;
+}
+.list_footer li {
+	padding-bottom: 9px;
+}
+.list_footer li:last-child {
+	padding-bottom: 0;
+}
+
+.address {
+	color: var(--c-white);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.footer_logo {
+	background-color: var(--c-colordesc);
+	padding: 60px;
+}
+
+/*=======end FOOTER=======*/
+/*======Portofolio======*/
+.filter_section {
+	background-color: var(--c-white);
+	padding-bottom: 64px;
+}
+
+.list__button {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 56px;
+}
+.list__button li {
+	margin-right: 8px;
+}
+.button_style {
+	color: var(--c-dark);
+	background-color: #f5f4fa;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	border-radius: 4px;
+	border: none;
+	padding: 6px 22px;
+}
+
+.button_style:hover,
+.button_style:focus {
+	color: var(--c-white);
+	background-color: var(--c-light-blue);
+}
+
+.poroject_list_title {
+	color: var(--c-dark);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.poroject_list_text {
+	color: var(--c-boulder);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+}
+.poroject_list {
+	background-color: var(--c-white);
+	/* max-width: 370px; */
+	margin-right: 30px;
+	margin-top: 30px;
+	flex-basis: calc((100% - 30px) / 9);
+}
+.project {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -30px;
+	margin-top: -30px;
+}
+
+.text__project {
+	padding: 20px 24px;
+	border: 1px solid #eeeeee;
+	border-top: none;
+}
+
+/*======Portofolio======*/
