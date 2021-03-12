@@ -15,7 +15,7 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./style.css/index.css" />
+		<link rel="stylesheet" href="./styles/index.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -41,12 +41,18 @@
 						<ul class="list_contacts">
 							<li>
 								<a class="links_contact" href="mailto:info@devstudio.com">
-									info@devstudio.com
+									<svg width="16" height="12">
+										<use  href="./img_4hw/sprite.svg#icon-envelope" />
+									</svg>
+									 info@devstudio.com
 								</a>
 							</li>
 							<li>
 								<a class="links_contact" href="tel:+380961111111">
-									+380961111111
+									<svg width="10" height="16">
+										<use  href="./img_4hw/sprite.svg#icon-smartphone" />
+									</svg>
+									 +380961111111
 								</a>
 							</li>
 						</ul>
@@ -67,6 +73,13 @@
 				<div class="container">
 					<div class="about__container">
 						<div class="about">
+							<div class="icon__about">
+								<div class="icon">
+									<svg width="70" height="70" >
+										<use  href="./img_4hw/sprite.svg#icon-sputnik" />
+									</svg>
+								</div>
+							</div>
 							<h3 class="about_title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
 							<p class="about_text">
 								Идейные соображения, а также начало повседневной работы по
@@ -75,6 +88,13 @@
 						</div>
 
 						<div class="about">
+							<div class="icon__about">
+								<div class="icon">
+									<svg width="70" height="70">
+										<use  href="./img_4hw/sprite.svg#icon-clock-1" />
+									</svg>
+								</div>
+							</div>
 							<h3 class="about_title">ПУНКТУАЛЬНОСТЬ</h3>
 							<p class="about_text">
 								Задача организации, в особенности же рамки и место обучения
@@ -82,6 +102,16 @@
 							</p>
 						</div>
 						<div class="about">
+							<div class="icon__about">
+								<div class="icon">
+									
+										<svg width="70" height="70">
+											<use  href="./img_4hw/sprite.svg#icon-diagram-1"  width="70"
+											height="70" >
+										</svg>
+									
+								</div>
+							</div>
 							<h3 class="about_title">ПЛАНИРОВАНИЕ</h3>
 							<p class="about_text">
 								Равным образом консультация с широким активом в значительной
@@ -89,6 +119,16 @@
 							</p>
 						</div>
 						<div class="about">
+							<div class="icon__about">
+								<div class="icon">
+									
+										<svg  width="70" height="70">
+											<use  href="./img_4hw/sprite.svg#icon-astronaut-1"  width="70"
+											height="70" >
+										</svg>
+									
+								</div>
+							</div>
 							<h3 class="about_title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
 							<p class="about_text">
 								Значимость этих проблем настолько очевидна, что реализация
@@ -133,7 +173,7 @@
 				<div class="container">
 					<h2 class="our_team_title">Наша команда</h2>
 					<ul class="our_team_title_list">
-						<li>
+						<li class="team">
 							<img
 								src="./img_1hw/photo_2021-02-16_17-44-11.jpg"
 								alt="our team"
@@ -142,8 +182,38 @@
 							/>
 							<h3 class="name_employee">Игорь Демьяненко</h3>
 							<p class="position_employee">Product Designer</p>
+							<ul class="icon__social_links">
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-instagram-2" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-twitter-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-facebook-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-linkedin-1" />
+										</svg>
+									</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="team">
 							<img
 								src="./img_1hw/photo_2021-02-16_17-44-02.jpg"
 								alt="our team"
@@ -152,8 +222,38 @@
 							/>
 							<h3 class="name_employee">Ольга Репина</h3>
 							<p class="position_employee">Frontend Developer</p>
+							<ul class="icon__social_links">
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-instagram-2" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-twitter-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-facebook-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-linkedin-1" />
+										</svg>
+									</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="team">
 							<img
 								src="./img_1hw/photo_2021-02-16_17-44-06.jpg"
 								alt="our team"
@@ -162,8 +262,38 @@
 							/>
 							<h3 class="name_employee">Николай Тарасов</h3>
 							<p class="position_employee">Marketing</p>
+							<ul class="icon__social_links">
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-instagram-2" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-twitter-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-facebook-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-linkedin-1" />
+										</svg>
+									</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="team">
 							<img
 								src="./img_1hw/photo_2021-02-16_17-43-53.jpg"
 								alt="our team"
@@ -172,6 +302,85 @@
 							/>
 							<h3 class="name_employee">Михаил Ермаков</h3>
 							<p class="position_employee">UI Designer</p>
+							<ul class="icon__social_links">
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-instagram-2" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-twitter-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-facebook-1" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg>
+											<use href="./img_4hw/sprite.svg#icon-linkedin-1" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section partners">
+				<div class="container">
+					<h2 class="partners__title">Постоянные клиенты</h2>
+					<ul class="partners__list">
+						<li>
+							<a href="#" class="icon">
+								<svg width="44" height="49">
+									<use href="./img_4hw/sprite.svg#icon-logo-1" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon">
+								<svg width="40" height="52">
+									<use href="./img_4hw/sprite.svg#icon-logo-2" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon">
+								<svg width="41" height="42">
+									<use href="./img_4hw/sprite.svg#icon-logo-3" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon">
+								<svg width="79" height="42">
+									<use href="./img_4hw/sprite.svg#icon-logo-4" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon">
+								<svg width="59" height="47">
+									<use href="./img_4hw/sprite.svg#icon-logo-5" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon">
+								<svg width="88" height="45">
+									<use href="./img_4hw/sprite.svg#icon-logo-6" />
+								</svg>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -179,34 +388,72 @@
 		</main>
 		<footer class="footer_logo">
 			<div class="container">
-				<div class="logo">
-					<a class="logotipe" href="#">
-						<span class="logo_1">WEB</span
-						><span class="logo_2_footer">Studio</span>
-					</a>
-				</div>
-				<div class="contacts">
-					<ul class="list_footer">
-						<li>
-							<a
-								class="address"
-								href="https://goo.gl/maps/7RgDSENQ5KW48WeS6"
-								rel="noopener noreferrer"
-							>
-								г. Киев, пр т Леси Украинки, 26</a
-							>
-						</li>
-						<li>
-							<a class="links_contact" href="mailto:info@devstudio.com"
-								>info@devstudio.com</a
-							>
-						</li>
-						<li>
-							<a class="links_contact" href="tel:+380961111111"
-								>+380961111111</a
-							>
-						</li>
-					</ul>
+					<div class="footer_link">
+						<div class="contact_footer">
+							<div class="logo">
+								<a class="logotipe" href="#">
+									<span class="logo_1">WEB</span
+									><span class="logo_2_footer">Studio</span>
+								</a>
+							</div>
+							<div class="contacts">
+								<ul class="list_footer">
+									<li>
+										<a
+											class="address"
+											href="https://goo.gl/maps/7RgDSENQ5KW48WeS6"
+											rel="noopener noreferrer"
+										>
+											г. Киев, пр т Леси Украинки, 26</a
+										>
+									</li>
+									<li>
+										<a class="links_contact" href="mailto:info@devstudio.com"
+											>info@devstudio.com</a
+										>
+									</li>
+									<li>
+										<a class="links_contact" href="tel:+380961111111"
+											>+380961111111</a>
+									</li>
+								</ul>
+							</div>
+					</div>		
+					<div class="social_link_footer">
+						<h2 class="links__title">присоединяйтесь</h2>
+									<ul class="list__link__footer">
+										<li>
+											<a href="#">
+												<svg width="20" hight="20">
+													<use href="./img_4hw/sprite.svg#icon-instagram-2" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg width="20" hight="20">
+													<use href="./img_4hw/sprite.svg#icon-twitter-1" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg width="20" hight="20">
+													<use href="./img_4hw/sprite.svg#icon-facebook-1" />
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<svg width="20" hight="20">
+													<use href="./img_4hw/sprite.svg#icon-linkedin-1" />
+												</svg>
+											</a>
+										</li>
+									</ul>	
+					</div>
+						
+					</div>
 				</div>
 			</div>
 		</footer>
